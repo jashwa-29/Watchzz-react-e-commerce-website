@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.gridlayout{
+    width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.testimo-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 40px 0px;
+}
+.testimo-head h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.testistroke{
+    width: 90px;
+    height: 1px;
+    background-color: #2E2E2E;
+}
+.main-testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.testimonials-content p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.testi-person-div p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.testi-pero-img-div img{
+    width: 60px;
+    height: auto;
+}
+.testi-pero-img-div{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.testi-info{
+margin-top: 20px;
+}
+.testi-info h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.testi-info p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.testimonials-img img{
+    width: 450px;
+    height: auto;
+}
+.carousle-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#testimoials{
+    background-color: #FCFCFC;
+    padding: 40px 0px;
+    margin: 60px 0px 30px 0px;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .main-testimonials{
+        flex-direction: column-reverse;
+           gap: 50px;
+       }
+
+
+    .testimonials-img img{
+        width: 100%;
+        height: auto;
+    }
+
+
+ 
+}
+
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 1024px) {
+
+    .main-testimonials{
+     flex-direction: column;
+        gap: 50px;
+    }
+    .testimonials-img img{
+        width: 100%;
+        height: auto;
+    }
+   
+}

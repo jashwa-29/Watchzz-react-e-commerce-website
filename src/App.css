@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* .app-main-header{
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

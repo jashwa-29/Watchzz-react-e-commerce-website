@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.gridlayout{
+    width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#newarrivals{
+    margin: 0px 0px 100px 0px;
+}
+
+.newari-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 40px 0px;
+}
+.newari-head h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.new-stroke{
+    width: 130px;
+    height: 1px;
+    background-color: #2E2E2E;
+}
+
+.new-card-body{
+    width: 250px;
+    height: auto;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 40px;
+
+}
+.new-sticker img{
+    width: 70px;
+    height: auto;
+    margin-left: 100%;
+}
+
+.new-card-content h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.new-card-content h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #2E2E2E;
+}
+.new-card-content button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background: #000;
+    padding: 9px 28px;
+    border-radius: 5px;
+    border: none;
+}
+.new-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.new-arrivales-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+

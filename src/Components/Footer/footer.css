@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.gridlayout{
+    width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#footer{
+    background-color: black;
+    padding: 40px 0px 20px 0px;
+}
+.main-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.about-text, .policy-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.our-info-text p{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    text-decoration: none;
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.footer-about, .footer-privacy, .footer-our-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 13px;
+
+}
+
+.about-text a, .policy-text a{
+    text-decoration: none;
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.footer-about h4, .footer-privacy h4, .footer-our-info h4{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+.footer-logo h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer-logo p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #808080;
+
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-icon i{
+    color: white;
+    font-size: 26px;
+}
+
+.footer-storke{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 35px 0px 20px 0px;
+}
+.footer-copyrights p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .main-footer{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+
+
+ 
+}
+
+@media only screen 
+  and (min-device-width: 501px) 
+  and (max-device-width: 1024px) {
+
+    .main-newsletter{
+      flex-direction: column;
+      gap: 60px;
+  }
+}
+  
